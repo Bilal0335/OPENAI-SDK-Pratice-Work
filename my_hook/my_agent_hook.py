@@ -1,3 +1,4 @@
+
 # ! my_agent_hook.py
 from agents import AgentHooks, RunContextWrapper, Agent, TContext, Tool
 from typing import Any
@@ -16,6 +17,7 @@ class MyAgentHook(AgentHooks):
         res = requests.get(url)
         result = res.json()
         context.context["obj"] = result
+        
     async def on_end(
         self,
         context: RunContextWrapper,
