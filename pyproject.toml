@@ -1,0 +1,13 @@
+[project]
+name = "simple-agn"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "bcrypt>=4.3.0",
+    "openai-agents>=0.2.5",
+    "python-decouple>=3.8",
+    "rich>=14.1.0",
+    "streamlit>=1.48.0",
+]
