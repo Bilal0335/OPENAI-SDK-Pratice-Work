@@ -8,6 +8,7 @@ dependencies = [
     "bcrypt>=4.3.0",
     "openai-agents>=0.2.5",
     "python-decouple>=3.8",
+    "python-dotenv>=1.1.1",
     "rich>=14.1.0",
     "streamlit>=1.48.0",
 ]
